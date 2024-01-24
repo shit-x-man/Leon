@@ -25,6 +25,7 @@
     "g-i-s": "^2.1.7",
     "google-tts-api": "^2.0.2",
     "heroku-client": "^3.1.0",
+    "emoji-unicode": "^2.0.1",
     "jimp": "^0.16.13",
     "mime-to-extensions": "^1.0.2",
     "node-webpmux": "^3.1.8",
