@@ -7,7 +7,7 @@ module.exports = {
     let list = '*Installed external commands are:*\n\n';
     let l = await command.list();
     if (l.length < 1) return await msg.reply({ text: '*There is no external command installed!*' });
-    list += l.forEach(async (command) => '*' + command.name + '* : ' + command.url).join('\n\n');
+    list += l.map(async (command) => `*${command.name}* : ${command.url}`).join('\n\n');
     return await msg.reply({ text: list });
   }
 };
