@@ -1,7 +1,7 @@
 const command = require('../helpers/database/commands');
 
 module.exports = {
-  command: 'excom',
+  command: 'commands',
   info: 'Shows installed external commands list.',
   func: async (sock, msg, text) => {
     let list = '*Installed external commands are:*\n\n';
